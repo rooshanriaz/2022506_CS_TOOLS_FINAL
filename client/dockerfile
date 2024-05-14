@@ -1,0 +1,7 @@
+FROM python:latest
+
+ADD client.py /
+
+WORKDIR /home/rooshan/Desktop/Lab_Final_2022506/Q2/CS205L_Final/PythonFiles/client
+
+CMD ["python", "client.py"]

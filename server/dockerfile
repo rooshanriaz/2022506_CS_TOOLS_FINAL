@@ -1,0 +1,7 @@
+FROM python:latest
+
+ADD server.py /
+
+WORKDIR /home/rooshan/Desktop/Lab_Final_2022506/Q2/CS205L_Final/PythonFiles/server
+
+CMD ["python", "server.py"]
