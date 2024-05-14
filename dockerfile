@@ -1,4 +1,3 @@
-FROM nginx
-
-COPY /usr/share/nginx/html/ 
-COPY index.html .
+FROM nginx:stable-alpine
+ADD index.html /usr/share/nginx/html/
+#'HELLO WORLD!'
